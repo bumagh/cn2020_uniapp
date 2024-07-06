@@ -1,0 +1,179 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {"navigationBarTitleText": "首页"}
+		},{
+			"path": "pages/paimai/index",
+			"style": {"navigationBarTitleText": "拍卖"}
+		},{
+			"path": "pages/paimai/detail",
+			"style": {"navigationBarTitleText": "拍卖"}
+		},{
+			"path": "pages/member/index",
+			"style": {"navigationBarTitleText": "个人中心"}
+		},{
+			"path": "pages/member/share"
+		},{
+			"path": "pages/member/reg",
+			"style": {"navigationBarTitleText": "注册"}
+		},{
+			"path": "pages/member/forget",
+			"style": {"navigationBarTitleText": "忘记密码"}
+		},{
+			"path": "pages/member/edit",
+			"style": {"navigationBarTitleText": "资料修改"}
+		},{
+			"path": "pages/member/sign",
+			"style": {"navigationBarTitleText": "个人广告"}
+		},{
+			"path": "pages/toupiao/index",
+			"style": {"navigationBarTitleText": "投票"}
+		},{
+			"path": "pages/toupiao/detail",
+			"style": {"navigationBarTitleText": "讨论"}
+		},{
+			"path": "pages/toupiao/discuz",
+			"style": {"navigationBarTitleText": "留言"}
+		},{
+			"path": "pages/toupiao/topic",
+			"style": {"navigationBarTitleText": "发表议题"}
+		},{			
+			"path" : "pages/member/setinvited",
+			"style": {"navigationBarTitleText": "绑定设置"}
+		},{
+			"path" : "pages/member/message",
+			"style": {"navigationBarTitleText": "我的消息"}
+		},{
+			"path" : "pages/member/pocket",
+			"style": {"navigationBarTitleText": "我的钱包"}
+        }
+        ,{
+            "path" : "pages/ranking/ranking",
+           "style": {"navigationBarTitleText": "排行榜"}
+        },{
+            "path" : "pages/signin/signin",
+           "style": {"navigationBarTitleText": "月签排行"}
+        },{
+            "path" : "pages/discuz/index",
+           "style": {"navigationBarTitleText": "留言版"}
+        },{
+            "path" : "pages/discuz/apply",
+           "style": {"navigationBarTitleText": "留言发布"}
+        }
+        ,{
+            "path" : "pages/share/share",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "聊天",
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"type":"menu"
+								//"text": "staff" //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+							}
+						],
+						"backButton": { //自定义 backButton
+							"background": "#00FF00"
+						}
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/chat/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "在线聊天",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/friend/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的好友",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/game/jump",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "进入游戏",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+            "path" : "pages/game/game",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "在线游戏",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+            "path" : "pages/game/demo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "动画测试",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/home.png",
+			"selectedIconPath": "static/home.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/friend/index",
+			"iconPath": "static/friend.png",
+			"selectedIconPath": "static/friend.png",
+			"text": "好友"
+		}, {
+			"pagePath": "pages/chat/index",
+			"iconPath": "static/chat.png",
+			"selectedIconPath": "static/chat.png",
+			"text": "聊天"
+		}, {
+			"pagePath": "pages/game/jump",
+			"iconPath": "static/game_icon.png",
+			"selectedIconPath": "static/game_icon.png",
+			"text": "游戏"
+		}, {
+			"pagePath": "pages/member/index",
+			"iconPath": "static/setting.png",
+			"selectedIconPath": "static/setting.png",
+			"text": "个人中心"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "无名",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}
